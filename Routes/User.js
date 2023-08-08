@@ -1499,7 +1499,7 @@ router.get('/website/setting', async (req, res) => {
     isDecentroActive: false,
     isManualPaymentActive: false,
     isManualUPIQR: '', //paymentGateway.QRcode,
-    isUpiGatewayActive: true,
+    isUpiGatewayActive: false,
 
     isManualPayoutActive: true,
     isCashFreePayoutActive: false,
